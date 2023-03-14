@@ -1,0 +1,408 @@
+.navOpen {
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+
+body.navOpen,
+body.navOpen *,
+body.navOpen *:hover,
+body.navOpen *:focus,
+body.navOpen *:active {
+    touch-action: none !important;
+    pointer-events: none !important;
+}
+
+body.navOpen .hamburger1,
+body.navOpen #menu_toggle_mb,
+body.navOpen #menu_toggle_mb * {
+    touch-action: auto !important;
+    pointer-events: visible !important;
+}
+
+.hamburger-inner,
+.hamburger-inner:after,
+.hamburger-inner:before {
+    width: 40px;
+    height: 2px;
+    background: #fff;
+}
+
+.hamburger1 {
+    top: 0;
+    right: 15px;
+    position: fixed;
+    z-index: 1111;
+    padding: 22px 23px 0;
+    display: inline-block;
+    cursor: pointer;
+    transition-property: opacity, filter;
+    transition-duration: 0.15s;
+    transition-timing-function: linear;
+    font: inherit;
+    color: #fff;
+    text-transform: none;
+    margin: 0;
+    overflow: visible;
+    background: transparent;
+    width: 86px;
+    box-sizing: border-box;
+}
+
+.hamburger1:hover {
+    opacity: .8;
+}
+
+.hamburger1.is-active {
+    right: 17px;
+    padding-top: 19px;
+}
+
+.hamburger1:before {
+    content: "menu";
+    color: #fff;
+    font-size: 14px;
+    position: absolute;
+    bottom: 14px;
+    left: 21px;
+    letter-spacing: 0;
+    line-height: 1;
+}
+
+.navOpen .hamburger1:before {
+    content: 'close';
+    top: 44px;
+    left: 16px;
+    color: #575757;
+}
+
+.hamburger-box {
+    width: 40px;
+    height: 17px;
+}
+
+.hamburger-inner:after {
+    bottom: -8px;
+}
+
+.hamburger-inner::before {
+    top: -8px;
+}
+
+.is-active .hamburger-inner,
+.is-active .hamburger-inner:after {
+    background: #575757;
+}
+
+.hamburger--vortex-r.is-active .hamburger-inner:after {
+    bottom: 0;
+    transform: rotate( -130deg);
+}
+
+.hamburger--vortex-r.is-active .hamburger-inner {
+    transition-timing-function: cubic-bezier(.19, 1, .22, 1);
+    transform: rotate( -745deg);
+}
+
+.hamburger-inner,
+.hamburger-inner:after,
+.hamburger-inner:before {
+    border-radius: 0;
+}
+
+.navOpen #menu_toggle_mb {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: visible;
+}
+
+.navOpen #menu_toggle_mb li {
+    opacity: 1;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+/**/
+
+header .menu_toggle {
+    padding: 143px 0 2%;
+    background: #fff;
+    color: #000000;
+    transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    width: 100% !important;
+    top: 0px;
+    right: 0;
+    height: 100vh;
+    overflow-y: scroll;
+    z-index: 1000;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block !important;
+}
+
+header .menu_toggle ul {
+    padding: 0;
+    list-style-type: none;
+    list-style-position: outside;
+}
+
+header .menu_toggle ul li {
+    position: relative;
+    padding: 0;
+    transform: matrix(1, 0, 0, 1, 0, -20);
+    transition: all ease 0.5s 0.3s;
+    opacity: 0;
+    margin-bottom: 8px;
+}
+
+header .menu_toggle .wrap {
+    padding: 0 150px;
+    box-sizing: border-box;
+}
+
+header .menu_toggle nav {
+    display: flex;
+    margin-bottom: 69px;
+}
+
+header .menu_toggle nav ul {
+    width: 350px;
+}
+
+header .menu_toggle nav ul li span::before {
+    border-top: 1px solid #2c3d3a;
+    bottom: -3px;
+}
+
+header .menu_toggle a {
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    letter-spacing: 0.2em;
+}
+
+header .menu_toggle a small {
+    display: block;
+    color: #8a8a8a;
+    letter-spacing: 0.2em;
+    font-size: 13px;
+    margin-top: -6px;
+}
+
+header .menu_toggle p.tel {
+    margin: 0 10px 68px 0;
+}
+
+header .menu_toggle p.tel .ttl {
+    display: inline;
+    padding-right: 19px;
+}
+
+header .menu_toggle p.tel small {
+    font-size: 15px;
+    font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    letter-spacing: 0;
+    display: block;
+    text-align: left;
+}
+
+header .menu_toggle .box {
+    display: flex;
+    align-items: flex-start;
+}
+
+header .menu_toggle p.sns {
+    margin: 0;
+    padding-left: 30px;
+    position: relative;
+}
+
+header .menu_toggle p.sns a {
+    margin: 0;
+    padding: 0;
+}
+
+header .menu_toggle p.sns::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 100%;
+    background: #000;
+}
+
+header .menu_toggle p.sns a:first-child {
+    margin-right: 25px;
+}
+
+#ft_fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    z-index: 999;
+    background: url(../img/shared/ft-bgfixed.jpg) no-repeat center center / 100% auto;
+    width: 100%;
+    height: 15vw;
+}
+
+.has_nav #ft_fixed {
+    opacity: 1;
+    visibility: visible;
+}
+
+#ft_fixed ul {
+    z-index: 100;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row;
+    flex-flow: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    text-align: center;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+#ft_fixed ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#ft_fixed li:nth-child(1) {
+    width: 14%;
+}
+
+#ft_fixed li:nth-child(2) {
+    width: 58%;
+}
+
+#ft_fixed li:nth-child(3) {
+    width: 14%;
+}
+
+@media screen and (max-width: 767px) {
+    .hamburger1 {
+        padding: 13px 15px 0;
+        width: 60px;
+    }
+    .hamburger-box {
+        width: 45px;
+    }
+    .hamburger-inner,
+    .hamburger-inner:after,
+    .hamburger-inner:before {
+        width: 45px;
+        height: 3px;
+    }
+    .hamburger-inner::before {
+        top: -9px;
+        display: none;
+    }
+    .hamburger-inner:after {
+        bottom: -13px;
+    }
+    .hamburger1:before {
+        font-size: 12px;
+        top: 23px;
+        left: -39px;
+        letter-spacing: 0.2em;
+    }
+    header .menu_toggle {
+        padding: 18vw 0 30%;
+    }
+    header .menu_toggle .box {
+        display: block;
+    }
+    header .menu_toggle .wrap {
+        padding: 0 3% !important;
+    }
+    /* iPhone X */
+    @media only screen and (min-device-width: 375px) and (min-device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+        footer:after {
+            background: #000;
+            content: '';
+            position: fixed;
+            bottom: 0px;
+            left: 0;
+            right: 0;
+            height: 36px;
+            z-index: 99;
+        }
+        #ft_fixed {
+            bottom: calc(env(safe-area-inset-bottom) - 0px);
+        }
+        footer {
+            padding-bottom: calc(env(safe-area-inset-bottom) + 21vw) !important;
+        }
+        /* #pagetop{
+      bottom: calc(env(safe-area-inset-bottom) + 90px) !important;
+  } */
+    }
+    /* iPhone XR */
+    @media only screen and (min-device-width: 414px) and (min-device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait) {
+        footer:after {
+            background: #000;
+            content: '';
+            position: fixed;
+            bottom: 0px;
+            left: 0;
+            right: 0;
+            height: 36px;
+            z-index: 99;
+        }
+        #ft_fixed {
+            bottom: calc(env(safe-area-inset-bottom) - 0px);
+        }
+        footer {
+            padding-bottom: calc(env(safe-area-inset-bottom) + 21vw) !important;
+        }
+        /* #pagetop{
+      bottom: calc(env(safe-area-inset-bottom) + 90px) !important;
+  } */
+    }
+    /* iPhone 11 */
+    @media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2),
+    only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3),
+    only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
+        footer:after {
+            background: #000;
+            content: '';
+            position: fixed;
+            bottom: 0px;
+            left: 0;
+            right: 0;
+            height: 36px;
+            z-index: 99;
+        }
+        #ft_fixed {
+            bottom: calc(env(safe-area-inset-bottom) - 0px);
+        }
+        footer {
+            padding-bottom: calc(env(safe-area-inset-bottom) + 21vw) !important;
+        }
+        /* #pagetop{
+      bottom: calc(env(safe-area-inset-bottom) + 90px) !important;
+  } */
+    }
+}

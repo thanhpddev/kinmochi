@@ -1,0 +1,1671 @@
+#key .slider1 {
+    background: url(../img/index/kv1.jpg) no-repeat center center / cover;
+}
+
+#key .slider2 {
+    background: url(../img/index/kv2.jpg) no-repeat center center / cover;
+}
+
+#key .slider3 {
+    background: url(../img/index/kv3.jpg) no-repeat center center / cover;
+}
+
+.img-wrap {
+    overflow: hidden;
+    position: relative;
+}
+
+.img-wrap.animated {
+    animation: img-wrap 3s cubic-bezier(.4, 0, .2, 1) forwards;
+    background: url(../img/index/waza-bg.jpg);
+    z-index: 1;
+    width: 0;
+}
+
+@keyframes img-wrap {
+    100% {
+        width: 100%;
+    }
+}
+
+.inner-fadein {
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.inner-fadein .fadein-img {
+    display: inline-block;
+}
+
+#news {
+    margin: 104px 0 120px;
+}
+
+#news h2 {
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    position: absolute;
+    top: 94px;
+    left: 113px;
+}
+
+#news #feed {
+    width: 682px;
+    margin: 0 25px 0 auto;
+}
+
+#news .row {
+    display: flex;
+    align-items: center;
+}
+
+#news .rss_img {
+    width: 280px;
+    height: 187px;
+    margin-right: 81px;
+    padding: 30px;
+    background: #fff;
+}
+
+#news .rss_img a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#news .rss_img span {
+    width: 100% !important;
+    height: 100% !important;
+    transition: all .3s ease;
+}
+
+#news .rss_img:hover * {
+    opacity: .8;
+}
+
+#news dl {
+    font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+
+#news dt {
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    margin-bottom: -4px;
+}
+
+#news dd {
+    font-size: 15px;
+    letter-spacing: 0.1em;
+    transition: all .3s ease;
+}
+
+#news dd:hover {
+    opacity: .8;
+    text-decoration: underline;
+}
+
+#news p.btn {
+    text-align: right;
+    margin: -57px 38px 0 auto;
+    width: 248px;
+}
+
+#news p.btn a {
+    width: 248px;
+}
+
+#lead {
+    padding: 86px 0 173px;
+    background: url(../img/index/lead-bg.png) no-repeat center top / 100% auto, url(../img/index/lead-d1.jpg) no-repeat center top 487px;
+}
+
+#lead p.img {
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+#lead h2 {
+    position: absolute;
+    top: 257px;
+    right: -8px;
+    width: 122px;
+    height: 315px;
+    font-size: 36px;
+    letter-spacing: 0.2em;
+    line-height: 60px;
+}
+
+#lead h3 {
+    position: absolute;
+    top: -65px;
+    left: 3px;
+    width: 115px;
+    height: 500px;
+    font-size: 36px;
+    letter-spacing: 0.2em;
+    line-height: 60px;
+}
+
+#lead h3 span {
+    font-size: 30px;
+}
+
+#lead .box {
+    width: 717px;
+    margin-left: 239px;
+}
+
+#lead .box p.txt {
+    margin-bottom: 36px;
+    line-height: 36px;
+}
+
+#lead .box p.txt:last-child {
+    margin-bottom: 0;
+}
+
+#waza {
+    background: url(../img/index/waza-d1.png) no-repeat center top 384px, url(../img/index/waza-bg.jpg);
+    color: #fff;
+    padding: 137px 0 231px;
+}
+
+#waza::before {
+    content: '';
+    position: absolute;
+    bottom: 488px;
+    left: 0;
+    width: calc(50% - 177px);
+    height: 392px;
+    background: url(../img/index/waza-d2.png) no-repeat right top / cover;
+}
+
+#waza .gr {
+    display: flex;
+    margin-bottom: 91px;
+}
+
+#waza h2 {
+    font-size: 30px;
+    line-height: 60px;
+    letter-spacing: 0.2em;
+    margin: 206px 0 0 93px;
+}
+
+#waza h2 span {
+    display: block;
+    font-size: 48px;
+    margin: 34px 0 0 -30px;
+    letter-spacing: 0.2em;
+}
+
+#waza h2 span small {
+    font-size: 30px;
+}
+
+#waza h3 {
+    font-size: 30px;
+    line-height: 60px;
+    letter-spacing: 0.2em;
+    margin: 89px 0 57px 50px;
+}
+
+#waza h3 span {
+    font-size: 40px;
+    letter-spacing: 0.2em;
+}
+
+#waza .box {
+    display: flex;
+}
+
+#waza .box p.txt:first-child {
+    width: 448px;
+    margin: 0 28px 0 50px;
+    line-height: 36px;
+}
+
+#waza .box p.txt:last-child {
+    width: 430px;
+    line-height: 36px;
+}
+
+#waza p.ttl {
+    text-align: right;
+    margin: 66px 50px 107px;
+}
+
+#waza .inner-fadein.inner2 {
+    text-align: right;
+}
+
+#omoi {
+    background: url(../img/index/omoi-d1.jpg) no-repeat center top;
+}
+
+#omoi {
+    padding: 21px 0 23px;
+}
+
+#omoi h2 {
+    font-size: 36px;
+    line-height: 90px;
+    letter-spacing: 0.2em;
+    width: 178px;
+    height: 371px;
+    color: #272215;
+    position: absolute;
+    top: 196px;
+    left: 161px;
+}
+
+#omoi h2 small {
+    font-size: 48px;
+}
+
+#omoi h2 span {
+    padding-top: 173px;
+}
+
+#omoi .slider-fade {
+    width: 491px;
+    margin: 0 75px 0 auto;
+    padding-bottom: 0;
+}
+
+#reco .inner {
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+#reco .row {
+    display: flex;
+}
+
+#reco .row-1 {
+    flex-direction: row-reverse;
+}
+
+#reco .row .box {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+#reco .row .box-1 {
+    background: url(../img/index/reco-bg2.jpg);
+    text-align: center;
+}
+
+#reco .row-1 .box-1 {
+    padding: 125px 50px 124px;
+}
+
+#reco .row-1 .box-2 h2 {
+    font-size: 36px;
+    letter-spacing: 0.2em;
+    margin-bottom: 57px;
+}
+
+#reco .row-1 .box-2 {
+    padding: 181px 121px 50px;
+    background: url(../img/index/reco-d1.png) no-repeat left top 110px, url(../img/index/reco-bg1.jpg);
+}
+
+#reco .row-2 .box-1 {
+    padding: 125px 50px 126px;
+}
+
+#reco .row-2 .box-2 h2 {
+    font-size: 36px;
+    letter-spacing: 0.2em;
+    margin-bottom: 57px;
+}
+
+#reco .row-2 .box-2 {
+    padding: 203px 121px 50px 131px;
+    background: url(../img/index/reco-d2.png) no-repeat right top 101px, url(../img/index/reco-bg1.jpg);
+}
+
+#sake .inner {
+    background: url(../img/index/sake-bg.jpg) no-repeat center center / cover;
+    padding: 255px 0 142px;
+}
+
+#sake h2 {
+    font-size: 30px;
+    letter-spacing: 0.2em;
+    line-height: 80px;
+    width: 153px;
+    height: 300px;
+    margin-left: -13px;
+    color: #fff;
+    text-shadow: 0px 0px 19.2px rgba(0, 0, 0, 0.5), 0px 0px 19.2px rgba(0, 0, 0, 0.5), 0px 0px 19.2px rgba(0, 0, 0, 0.5);
+}
+
+#sake h2 span {
+    font-size: 40px;
+}
+
+#sake .row {
+    padding: 145px 0 141px;
+}
+
+#sake .row::before {
+    content: '';
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background: url(../img/index/sake-d1.png) no-repeat right top / 100% auto;
+    /* width: calc(50% - 340px);
+  height: 38vw; */
+    width: 410px;
+    height: 518px;
+}
+
+#sake .row .wrap {
+    display: flex;
+}
+
+#sake .row p.txt {
+    width: 495px;
+    min-width: 495px;
+    margin: 41px 59px 0 0;
+    line-height: 36px;
+}
+
+#course {
+    background: url(../img/index/course-d1.png) no-repeat center bottom, url(../img/index/waza-bg.jpg);
+    padding: 105px 0 149px;
+    color: #fff;
+}
+
+#course .wrap {
+    padding: 0 30px;
+}
+
+#course h2 {
+    font-size: 24px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    position: relative;
+}
+
+#course h2 small {
+    font-size: 30px;
+    letter-spacing: 0.2em;
+    display: block;
+    margin-top: 19px;
+}
+
+#course h2 span {
+    background: url(../img/index/waza-bg.jpg);
+    padding: 0 19px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+}
+
+#course h2::before {
+    content: '';
+    position: absolute;
+    top: 63px;
+    left: 0;
+    width: 96%;
+    margin-left: 2%;
+    height: 1px;
+    background: #5f5232;
+}
+
+#course p.price {
+    font-size: 30px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    margin: 45px 0 55px;
+}
+
+#course p.txt-sub {
+    text-align: center;
+    letter-spacing: 0.2em;
+    margin-bottom: 45px;
+}
+
+#course .row-1 {
+    border-top: 1px solid #5f5232;
+    border-bottom: 1px solid #5f5232;
+    padding: 43px 0 54px;
+    margin-bottom: 53px;
+}
+
+#course .row h3 {
+    font-size: 24px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    margin-bottom: 39px;
+}
+
+#course .row .gr {
+    display: flex;
+    width: 584px;
+    margin: 0 auto;
+}
+
+#course .row .gr p.txt {
+    line-height: 25px;
+}
+
+#course .row .gr p.txt:first-child {
+    margin-right: 210px;
+}
+
+#course .row-2 p.txt {
+    width: 641px;
+    margin: 0 auto;
+    line-height: 36px;
+}
+
+#menu {
+    padding: 175px 0 94px;
+    background: url(../img/index/menu-bg.jpg) no-repeat center center / cover;
+    text-align: center;
+    color: #fff;
+}
+
+#menu p.btn-popup {
+    margin-bottom: 60px;
+}
+
+#menu p.btn-popup a {
+    font-size: 40px;
+    letter-spacing: 0.2em;
+    border-bottom: 1px dashed #fff;
+    padding: 0 64px 8px 0;
+    position: relative;
+    transition: all .3s ease;
+}
+
+#menu p.btn-popup a::before {
+    content: '';
+    position: absolute;
+    top: 13px;
+    right: 5px;
+    background: url(../img/index/menu-ic.png) no-repeat center center / 100% auto;
+    width: 40px;
+    height: 40px;
+}
+
+#menu p.btn-popup a:hover {
+    opacity: .8;
+}
+
+#menu>.wrap>p.txt-sub {
+    letter-spacing: 0.2em;
+}
+
+.remodal {
+    max-width: 1100px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#popup2 {
+    font-size: 15px;
+    letter-spacing: 0.1em;
+    line-height: 36px;
+    padding: 100px 100px 200px;
+    box-sizing: border-box;
+    color: #000000;
+    background: url(../img/shared/bg.jpg);
+}
+
+button.button-ot {
+    right: 40px;
+}
+
+#popup2 .row-1 {
+    margin-bottom: 98px;
+}
+
+#popup2 h3 {
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 0.2em;
+    margin-bottom: 10px;
+}
+
+#popup2 p.txt-sub {
+    margin-bottom: 19px;
+}
+
+#popup2 h4 {
+    font-size: 20px;
+    letter-spacing: 0.2em;
+    border-bottom: 3px solid #000;
+    padding-bottom: 5px;
+    margin-bottom: 24px;
+    text-align: left;
+}
+
+#popup2 .col {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+#popup2 .col .box {
+    width: 47%;
+    margin-bottom: 41px;
+}
+
+#popup2 .col .box:last-child {
+    margin-bottom: 0;
+}
+
+#popup2 h4+dl {
+    padding-top: 0;
+}
+
+#popup2 dl {
+    display: flex;
+    justify-content: space-between;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    padding: 9px 0;
+    border-bottom: 1px dashed #000;
+}
+
+#popup2 dt {
+    width: 75%;
+}
+
+#popup2 dd {
+    width: 25%;
+    text-align: right;
+}
+
+.dl63 dt {
+    width: 65% !important;
+}
+
+.dl63 dd {
+    width: 35% !important;
+}
+
+#osechi {
+    background: #000;
+    color: #fff;
+    padding: 0 30px;
+    overflow: hidden;
+}
+
+#osechi::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url(../img/index/cc-d2.jpg) no-repeat left bottom / cover;
+    width: calc(50% + 310px);
+    height: 51vw;
+}
+
+#osechi .inner {
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 164px 0 67px;
+}
+
+#osechi .inner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -125px;
+    background: url(../img/index/cc-d1.png) no-repeat center center / 100% auto;
+    width: 621px;
+    height: 630px;
+}
+
+#osechi h2 {
+    font-size: 30px;
+    line-height: 60px;
+    letter-spacing: 0.2em;
+    border-bottom: 1px solid #4c4435;
+    padding-bottom: 23px;
+    margin-bottom: 25px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+
+#osechi h2 span {
+    font-size: 40px;
+    display: block;
+}
+
+#osechi p.txt {
+    width: 423px;
+    letter-spacing: 0.2em;
+    position: relative;
+    line-height: 36px;
+    z-index: 1;
+}
+
+#osechi h3 {
+    margin: -63px 0 0 414px;
+}
+
+#osechi .wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 122px;
+}
+
+#osechi .wrap h4 {
+    font-size: 24px;
+    letter-spacing: 0.2em;
+    margin-right: 36px;
+    white-space: nowrap;
+}
+
+#osechi .wrap dl {
+    border-left: 1px solid #4c4435;
+    border-right: 1px solid #4c4435;
+    padding: 21px 29px 52px;
+    margin: 0 25px 0 0;
+    width: 224px;
+    white-space: nowrap;
+}
+
+#osechi .wrap dt {
+    font-size: 15px;
+    letter-spacing: 0.2em;
+}
+
+#osechi .wrap dd {
+    font-size: 20px;
+    letter-spacing: 0.2em;
+}
+
+#osechi p.tel {
+    letter-spacing: 0.2em;
+    line-height: 30px;
+    white-space: nowrap;
+}
+
+#osechi p.tel .cl1 {
+    font-size: 20px;
+}
+
+#floor {
+    padding: 123px 30px 176px;
+    background: url(../img/index/floor-d1.png) no-repeat center top 167px;
+}
+
+#floor::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: calc(50% - 550px);
+    height: 100%;
+    background: url(../img/index/reco-bg2.jpg);
+}
+
+#floor h2 {
+    font-size: 40px;
+    letter-spacing: 0.2em;
+    position: absolute;
+    top: 170px;
+    left: 457px;
+}
+
+#floor p.txt {
+    width: 510px;
+    letter-spacing: 0.2em;
+    line-height: 36px;
+    position: absolute;
+    top: 264px;
+    left: 459px;
+}
+
+#floor .inner {
+    width: 100%;
+    max-width: 1346px;
+    margin: 50px auto 0;
+    display: flex;
+    justify-content: center;
+}
+
+#floor p.img1 {
+    margin-top: 156px;
+}
+
+#floor p.img2 {
+    margin-top: 74px;
+}
+
+#info {
+    background: url(../img/index/reco-bg1.jpg);
+}
+
+#info .inner {
+    width: 100%;
+    max-width: 1500px;
+    display: flex;
+    margin: 0 auto 0;
+}
+
+#info p.img {
+    margin: 0 159px 0 0;
+}
+
+#info .col {
+    width: 680px;
+    margin-top: 145px;
+}
+
+#info .gr {
+    display: flex;
+    align-items: center;
+    margin-bottom: 75px;
+}
+
+#info h2 {
+    font-size: 40px;
+    letter-spacing: 0.2em;
+    position: relative;
+    margin-right: 101px;
+    white-space: nowrap;
+}
+
+#info h2::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    right: -39px;
+    width: 1px;
+    height: 43px;
+    transform: skew(-46deg);
+    background: #000;
+}
+
+#info p.tel {
+    font-size: 16px;
+    letter-spacing: 0.08em;
+    line-height: 18px;
+    white-space: nowrap;
+}
+
+#info p.tel .cl1 {
+    font-size: 26px;
+}
+
+#info p.tel .cl2 {
+    font-size: 15px;
+    letter-spacing: 0;
+}
+
+#info dl:first-child {
+    padding-top: 0;
+}
+
+#info dl {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 10px 4px;
+    border-bottom: 1px dashed #000;
+    line-height: 15px;
+}
+
+#info dt {
+    width: 212px;
+    letter-spacing: 0.2em;
+    line-height: 20px;
+}
+
+#info dd {
+    width: 495px;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+}
+
+#gmap {
+    padding: 57px 50px 82px;
+    box-sizing: border-box;
+}
+
+#gmap .row {
+    width: 100%;
+}
+
+#gmap iframe {
+    width: 100%;
+    height: 500px;
+}
+
+#gmap .box {
+    display: flex;
+    justify-content: center;
+    margin-top: 51px;
+}
+
+#gmap .box>* {
+    margin: 0 24px;
+    position: relative;
+}
+
+#gmap p.btn.btn-link a {
+    width: 320px;
+    height: 60px;
+    line-height: 60px;
+}
+
+#gmap p.btn.btn-link a i {
+    right: 52px;
+}
+
+#gmap p.btn.copy:hover {
+    opacity: 1;
+}
+
+#gmap p.btn.copied {
+    cursor: pointer;
+    font-size: 18px;
+    letter-spacing: 0;
+    width: 320px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #000;
+    color: #fff;
+    box-sizing: border-box;
+    transition: all 0s ease;
+    font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "メイリオ", Meiryo, "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+
+#gmap p.btn.copied::before {
+    content: '>';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 52px;
+}
+
+#gmap p.btn3 {
+    text-align: center;
+    margin-top: 26px;
+    letter-spacing: 0.2em;
+}
+
+#gmap p.btn3 a {
+    text-decoration: none;
+    transition: all .3s ease;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+#gmap p.btn3 a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #000;
+    opacity: .8;
+}
+
+#gmap p.btn3 a:hover {
+    opacity: .8;
+}
+
+#gmap p.btn3 a:hover::before {
+    height: 0;
+}
+
+#gmap p.btn2.copied {
+    pointer-events: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1350px) {
+    #waza::before {
+        bottom: 431px;
+    }
+    #waza .inner1,
+    #waza .pc.inner-fadein.inner2 {
+        display: none;
+    }
+    #waza .sp.img-wrap1 {
+        display: block !important;
+        width: 91%;
+        padding: 0;
+    }
+    #waza .sp.img-wrap1.inner2 {
+        margin-left: auto;
+    }
+    #waza .sp.img-wrap1 img {
+        width: 100%;
+        height: auto;
+    }
+    .inner-fadein {
+        max-width: 100%;
+        padding: 0 3%;
+        box-sizing: border-box;
+    }
+    .inner-fadein img {
+        height: auto;
+        width: auto;
+    }
+    .inner-fadein p.img1 {
+        height: 21vw;
+    }
+    .img-wrap1 {
+        overflow: hidden;
+        position: relative;
+        padding: 0 2%;
+    }
+    .img-wrap1.animated:before {
+        animation: img-wrap1 2s cubic-bezier(.4, 0, .2, 1) forwards;
+        background: url(../img/index/waza-bg.jpg);
+        bottom: 0;
+        content: '';
+        left: 0;
+        pointer-events: none;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 1;
+    }
+    @keyframes img-wrap1 {
+        100% {
+            transform: translateX(100%);
+        }
+    }
+    #osechi .wrap h4 {
+        font-size: 23px;
+        letter-spacing: 0.15em;
+    }
+    #osechi .wrap dd {
+        font-size: 19px;
+        letter-spacing: 0.15em;
+    }
+    #osechi p.tel .cl3 {
+        font-size: 14.5px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    #lead .box {
+        margin-left: 204px;
+    }
+    #sake .row::before {
+        left: -95px;
+        width: 366px;
+    }
+    .inner-fadein .fadein-img p.img1 {
+        margin-left: -104px;
+    }
+    .inner-fadein .fadein-img p.img2 {
+        margin-left: -104px;
+    }
+    #reco .row-1 .box-1 img,
+    #reco .row-2 .box-1 img {
+        width: 100%;
+        height: auto;
+    }
+    #reco .row-1 .box-2,
+    #reco .row-2 .box-2 {
+        padding: 50px 50px;
+    }
+    #reco .row-1 .box-1,
+    #reco .row-2 .box-1 {
+        padding: 50px;
+    }
+    #sake .row p.img img {
+        width: 100%;
+        height: auto;
+    }
+    #sake .row p.txt {
+        margin: 5px 59px 0 0;
+    }
+    #info p.img {
+        margin: 0 59px 0 -108px;
+    }
+    #info dt {
+        width: 205px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #key .slider1 {
+        background: url(../img/index/kv1_sp.jpg) no-repeat left top / cover;
+    }
+    #key .slider2 {
+        background: url(../img/index/kv2_sp.jpg) no-repeat left top / cover;
+    }
+    #key .slider3 {
+        background: url(../img/index/kv3_sp.jpg) no-repeat left top / cover;
+    }
+    p.txt {
+        line-height: 1.9 !important;
+        text-align: justify !important;
+    }
+    #news {
+        margin: 12vw 0 11vw;
+    }
+    #news h2 {
+        font-size: 6.5vw;
+        position: relative;
+        top: 0;
+        left: 0;
+        text-align: center;
+        margin-bottom: 3vw;
+    }
+    #news #feed {
+        width: 100%;
+        margin: 0;
+    }
+    #news .rss_img {
+        width: 32%;
+        height: 20vw;
+        margin-right: 6vw;
+        padding: 12px;
+        transition: all .3s ease;
+    }
+    #news p.btn {
+        text-align: center;
+        margin: 0;
+        width: 100%;
+    }
+    #news dl {
+        width: 39%;
+    }
+    #news dt {
+        font-size: 3vw;
+        margin-bottom: 0;
+    }
+    #news dd {
+        line-height: 1.5;
+        font-size: 4vw;
+        margin-top: 1vw;
+        text-decoration: underline;
+    }
+    #news .row {
+        align-items: center;
+        justify-content: center;
+    }
+    #news p.btn a {
+        width: 72%;
+        margin-top: 6vw;
+    }
+    #lead {
+        padding: 12vw 0 12vw;
+        background: url(../img/index/lead-d1_sp.jpg) no-repeat center top / 100% auto;
+    }
+    #lead h2 {
+        top: 70vw;
+        right: 11%;
+        width: 24vw;
+        height: 61vw;
+        font-size: 6.5vw;
+        letter-spacing: 0.2em;
+        line-height: 1.7;
+    }
+    #lead p.img {
+        margin-bottom: 16vw;
+    }
+    #lead h3 {
+        position: relative;
+        top: 0;
+        left: 12%;
+        width: 24vw;
+        height: 85vw;
+        font-size: 6.5vw;
+        letter-spacing: 0.2em;
+        line-height: 1.7;
+    }
+    #lead h3 span {
+        font-size: 6vw;
+    }
+    #lead .box {
+        width: 100%;
+        margin-left: 0;
+    }
+    #lead .box p.txt {
+        margin-bottom: 6vw;
+        line-height: 1.9;
+    }
+    #waza {
+        background: url(../img/index/waza-d2_sp.png) no-repeat center bottom / 100% auto, url(../img/index/waza-d1_sp.png) no-repeat center top/ 100% auto, url(../img/index/waza-bg.jpg);
+        padding: 6vw 0 15vw;
+    }
+    #waza .gr {
+        margin-bottom: 2vw;
+    }
+    #waza h2 {
+        font-size: 3.8vw;
+        letter-spacing: 0.2em;
+        line-height: 1.9;
+        margin: 0;
+        position: absolute;
+        top: 23vw;
+        right: 0;
+    }
+    #waza h2 span {
+        font-size: 6vw;
+        margin: 1vw 0 0 -4vw;
+    }
+    #waza h2 span small {
+        font-size: 4vw;
+    }
+    #waza .gr p.img {
+        width: 50%;
+        position: relative;
+        left: -12vw;
+    }
+    .inner-fadein {
+        max-width: 100%;
+        padding: 0 3%;
+        box-sizing: border-box;
+    }
+    .inner-fadein img {
+        height: auto;
+        width: auto;
+    }
+    .inner-fadein p.img1 {
+        height: 21vw;
+    }
+    .img-wrap1 {
+        overflow: hidden;
+        position: relative;
+        padding: 0 2%;
+    }
+    .img-wrap1.animated:before {
+        animation: img-wrap1 2s cubic-bezier(.4, 0, .2, 1) forwards;
+        background: url(../img/index/waza-bg.jpg);
+        bottom: 0;
+        content: '';
+        left: 0;
+        pointer-events: none;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 1;
+    }
+    @keyframes img-wrap1 {
+        100% {
+            transform: translateX(100%);
+        }
+    }
+    #waza h3 {
+        font-size: 5vw;
+        letter-spacing: 0.2em;
+        line-height: 1.7;
+        margin: 9vw 0 4vw;
+    }
+    #waza h3 span {
+        font-size: 7vw;
+    }
+    #waza .box {
+        display: block;
+    }
+    #waza .box p.txt:first-child {
+        width: 100%;
+        margin: 0;
+    }
+    #waza .box p.txt:last-child {
+        width: 100%;
+    }
+    #waza p.ttl {
+        text-align: right;
+        margin: 6vw 3vw 9vw auto;
+        width: 16%;
+    }
+    #omoi {
+        padding: 0 0 2vw;
+        background: url(../img/index/omi-d1.jpg) no-repeat center top / 100% auto;
+    }
+    #omoi .wrap {
+        padding: 0;
+    }
+    #omoi .slider-fade {
+        width: 100%;
+        margin: 0;
+    }
+    #omoi h2 {
+        font-size: 6vw;
+        line-height: 1.7;
+        width: 31vw;
+        height: 100vw;
+        position: absolute;
+        top: 17vw;
+        left: 0;
+    }
+    #omoi h2 small {
+        font-size: 8vw;
+    }
+    #omoi h2 span {
+        padding-top: 28vw;
+    }
+    #reco .row {
+        display: block;
+    }
+    #reco .row .box {
+        width: 100%;
+    }
+    #reco .row-1 .box-1 {
+        padding: 8vw;
+    }
+    #reco .row-1 .box-2 {
+        padding: 14vw 8vw 15vw;
+        background: url(../img/index/reco-d1_sp.png) no-repeat center top / 100% auto, url(../img/index/reco-bg1.jpg);
+    }
+    #reco .row-1 .box-2 h2 {
+        font-size: 6.5vw;
+        margin-bottom: 6vw;
+        text-align: center;
+    }
+    #reco .row-2 .box-2 h2 {
+        font-size: 6.5vw;
+        margin-bottom: 6vw;
+        text-align: center;
+    }
+    #reco .row-2 .box-1 {
+        padding: 8vw;
+    }
+    #reco .row-2 .box-2 {
+        padding: 14vw 8vw 15vw;
+        background: url(../img/index/reco-d2_sp.png) no-repeat center top 19vw / 100% auto, url(../img/index/reco-bg1.jpg);
+    }
+    #sake .inner {
+        background: url(../img/index/sake-bg_sp.jpg) no-repeat center center / cover;
+        padding: 10vw 0 4vw;
+    }
+    #sake h2 {
+        font-size: 6.5vw;
+        line-height: 1.7;
+        width: 25vw;
+        height: 62vw;
+        margin-left: 0;
+    }
+    #sake h2 span {
+        font-size: 8vw;
+    }
+    #sake .row {
+        padding: 12vw 0 13vw;
+        background: url(../img/index/sake-d1_sp.png) no-repeat center bottom / 100% auto;
+    }
+    #sake .row::before {
+        display: none;
+    }
+    #sake .row .wrap {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #sake .row p.txt {
+        width: 100%;
+        min-width: 100%;
+        margin: 0;
+        padding: 0 3%;
+        line-height: 36px;
+        order: 1;
+        box-sizing: border-box;
+    }
+    #sake .row p.img {
+        padding: 0 9%;
+        margin-bottom: 9vw;
+        order: 0;
+    }
+    #course {
+        background: url(../img/index/course-d1_sp.png) no-repeat center top / 100% auto, url(../img/index/waza-bg.jpg);
+        padding: 9vw 0 15vw;
+        color: #fff;
+    }
+    #course .wrap {
+        padding: 0 4%;
+    }
+    #course h2 span {
+        padding: 0;
+        background: transparent;
+    }
+    #course h2 {
+        font-size: 5vw;
+        letter-spacing: 0.1em;
+    }
+    #course h2 small {
+        font-size: 5vw;
+        margin-top: 1vw;
+        letter-spacing: 0.1em;
+        display: inline-block;
+        padding: 0 5%;
+        background: url(../img/index/waza-bg.jpg);
+    }
+    #course h2::before {
+        top: 15.5vw;
+        width: 100%;
+        margin-left: 0;
+    }
+    #course p.price {
+        font-size: 5vw;
+        margin: 6vw 0 4vw;
+    }
+    #course p.txt-sub {
+        letter-spacing: 0;
+        margin-bottom: 6vw;
+    }
+    #course .row h3 {
+        font-size: 5vw;
+        margin-bottom: 6vw;
+    }
+    #course .row-1 {
+        padding: 7vw 0 8vw;
+        margin-bottom: 7vw;
+    }
+    #course .row .gr {
+        width: 100%;
+        margin: 0 auto;
+    }
+    #course .row .gr p.txt:first-child {
+        margin: 0 0 0 4vw;
+        width: 47%;
+        letter-spacing: 0;
+    }
+    #course .row .gr p.txt:last-child {
+        width: 47%;
+        letter-spacing: 0;
+    }
+    #course .row-2 p.txt {
+        width: 100%;
+        padding-left: 4vw;
+        box-sizing: border-box;
+    }
+    #menu {
+        padding: 15vw 0 14vw;
+        background: url(../img/index/menu-bg_sp.jpg) no-repeat center center / cover;
+    }
+    #menu::before {
+        content: '';
+        position: absolute;
+        bottom: -1px;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background: #000;
+        z-index: 1;
+    }
+    #menu p.btn-popup a {
+        font-size: 6vw;
+        padding: 0 10vw 1vw 0;
+    }
+    #menu p.btn-popup a::before {
+        top: 2vw;
+        right: 1vw;
+        width: 6vw;
+        height: 6vw;
+    }
+    #menu p.btn-popup {
+        margin-bottom: 4vw;
+    }
+    #popup2 {
+        font-size: 14px;
+        letter-spacing: 0;
+        line-height: 1.9;
+        padding: 6vw 3% 12vw;
+    }
+    #popup2 h3 {
+        font-size: 6.5vw;
+        margin-bottom: 0vw;
+    }
+    #popup2 p.txt-sub {
+        margin-bottom: 3vw;
+    }
+    #popup2 .row-1 {
+        margin-bottom: 12vw;
+    }
+    #popup2 .col {
+        display: block;
+    }
+    #popup2 .col .box {
+        width: 100%;
+        margin-bottom: 9vw;
+    }
+    #popup2 h4 {
+        font-size: 5vw;
+        padding-bottom: 0vw;
+        margin-bottom: 5vw;
+    }
+    #osechi {
+        background: url(../img/index/osechi-img1_sp.jpg) no-repeat center top / 100% auto #000;
+        padding: 56vw 0 13vw;
+        margin-top: -3px;
+        z-index: 1;
+    }
+    #osechi .inner {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    #osechi::before {
+        display: none;
+    }
+    #osechi .inner::before {
+        display: none;
+    }
+    #osechi h2 {
+        font-size: 5.5vw;
+        line-height: 1.7;
+        padding-bottom: 2vw;
+        width: 90%;
+        margin: 0 auto 6vw;
+        display: block;
+        text-align: center;
+    }
+    #osechi h2 span {
+        font-size: 7.5vw;
+    }
+    #osechi p.txt {
+        width: 100%;
+        text-align: center !important;
+        padding: 0 4%;
+        box-sizing: border-box;
+        letter-spacing: 0;
+    }
+    #osechi .wrap {
+        display: block;
+        margin-top: 9vw;
+    }
+    #osechi h3 {
+        margin: 0;
+        position: absolute;
+        top: -28vw;
+        left: 5%;
+        width: 23%;
+    }
+    #osechi .wrap h4 {
+        font-size: 5.5vw;
+        line-height: 1.7;
+        text-align: center;
+        margin-right: 0;
+    }
+    #osechi .wrap dl {
+        padding: 3vw 6vw;
+        margin: 0 22px 0 0;
+        width: 66%;
+        margin: 3vw auto 6vw;
+        text-align: center;
+    }
+    #osechi .wrap dd {
+        font-size: 5vw;
+    }
+    #osechi p.tel {
+        line-height: 1.7;
+        text-align: center;
+    }
+    #osechi p.tel .cl1 {
+        font-size: 6vw;
+        display: block;
+    }
+    #osechi p.tel .cl3 {
+        letter-spacing: 0;
+        font-size: 13px;
+    }
+    #floor {
+        padding: 50px 0 50px;
+        background: url(../img/index/floor-d1_sp.png) no-repeat center top / 100% auto;
+    }
+    #floor p.floor {
+        width: 56%;
+        margin: 0 10vw 0 auto;
+    }
+    #floor h2 {
+        font-size: 7vw;
+        letter-spacing: 0.2em;
+        position: absolute;
+        top: 0;
+        left: 11vw;
+        width: 11vw;
+        height: 54vw;
+    }
+    #floor p.txt {
+        width: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-top: 6vw;
+    }
+    #floor .inner {
+        width: 100%;
+        max-width: 100%;
+        margin: 6vw auto 0;
+        padding: 0 1%;
+        box-sizing: border-box;
+    }
+    #floor p.img1 {
+        margin-top: 11vw;
+    }
+    #floor p.img2 {
+        margin-top: 5vw;
+    }
+    #info {
+        padding-bottom: 15vw;
+    }
+    #info .inner {
+        width: 100%;
+        max-width: 100%;
+        display: block;
+    }
+    #info p.img {
+        margin: 0;
+    }
+    #info .col {
+        width: 100%;
+        margin-top: 8vw;
+    }
+    #info .gr {
+        display: block;
+        margin-bottom: 9vw;
+    }
+    #info h2 {
+        font-size: 7.5vw;
+        margin: 0 0 4vw;
+        text-align: center;
+    }
+    #info h2::before {
+        display: none;
+    }
+    #info p.tel {
+        line-height: 1.5;
+        text-align: center;
+    }
+    #info p.tel .cl2 {
+        font-size: 13px;
+        white-space: nowrap;
+        letter-spacing: 0;
+        display: block;
+        margin-top: 2vw;
+    }
+    #info .menu-dl {
+        padding: 0 4%;
+        box-sizing: border-box;
+    }
+    #info dl {
+        display: block;
+        padding: 13px 5px;
+        line-height: 1.7;
+        font-size: 14px;
+    }
+    #info dt {
+        width: 100%;
+    }
+    #info dd {
+        width: 100%;
+        padding-left: 6vw;
+        box-sizing: border-box;
+        letter-spacing: 0;
+    }
+    #gmap {
+        padding: 9vw 4% 10vw;
+    }
+    #gmap iframe {
+        height: 480px;
+    }
+    #gmap .box {
+        margin-top: 3vw;
+    }
+    #gmap .wrap {
+        padding: 0;
+    }
+    #gmap .box>* {
+        margin: 0 5px;
+    }
+    #gmap p.btn.btn-link a {
+        width: 100%;
+        height: 12vw;
+        line-height: 12vw;
+    }
+    #gmap p.btn3 {
+        margin-top: 4vw;
+        font-size: 13px;
+    }
+    #gmap .box>* {
+        margin: 0 5px;
+        position: relative;
+        width: 50%;
+    }
+    #gmap p.btn.btn-link a i {
+        right: 3vw;
+    }
+    #gmap p.btn2.copied {
+        pointer-events: none;
+        width: 50%;
+        height: 12vw;
+        line-height: 12vw;
+        font-size: 4vw;
+        letter-spacing: 0.08em;
+        text-align: left;
+        padding-left: 4vw;
+        box-sizing: border-box;
+    }
+    #gmap p.btn.copied::before {
+        right: 3vw;
+    }
+}
+
+/*IE*/
+
+@media all and (-ms-high-contrast:none) {
+    #gmap p.btn2.copied {
+        line-height: 70px;
+    }
+    #gmap p.btn.copied::before {
+        top: 58%;
+    }
+    .btn-link i {
+        top: 58%;
+    }
+}
